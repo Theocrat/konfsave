@@ -1,7 +1,7 @@
 import argparse
 from typing import Literal
 
-action: typing.Literal[
+action: Literal[
 	'help',			# Print information about the program
 	'info',			# Get info about a profile
 	'save',			# Save current configuration to a profile
